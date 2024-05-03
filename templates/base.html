@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>MyBlog</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+      {% block content %} {% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 arbs09.de</p>
+	    <p>Powered by <a target="_blank" href="https://www.getzola.org/">Zola</a></p>
+    </footer>
+</body>
+
+</html>
