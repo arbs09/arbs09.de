@@ -50,7 +50,7 @@ footer {
     padding: 20px;
 }
 
-p, h1, a, .title, .date {
+p, h1, h2, h3, a, .title, .date {
     color: white;
     text-align: center;
 }
@@ -67,4 +67,10 @@ p, h1, a, .title, .date {
     main {
         padding: 0 10px;
     }
+}
+
+.small-icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
 }
