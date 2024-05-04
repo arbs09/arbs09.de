@@ -8,6 +8,8 @@ default_language = "en"
 
 [markdown]
 highlight_code = true
+render_emoji = true
+
 
 [extra]
 author = "@arbs09"
