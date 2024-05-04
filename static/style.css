@@ -74,3 +74,16 @@ p, h1, h2, h3, a, .title, .date {
     height: 20px;
     fill: white;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+}
