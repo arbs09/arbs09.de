@@ -6,6 +6,9 @@ body {
     min-height: 100vh;
     background-color: black;
     font-family: Arial, sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 nav {
@@ -42,13 +45,15 @@ main {
     padding: 0 20px;
 }
 
+
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
     padding: 20px;
 }
+    
 
 p, h1, h2, h3, a, .title, .date {
     color: white;
