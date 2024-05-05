@@ -6,6 +6,9 @@ body {
     min-height: 100vh;
     background-color: black;
     font-family: Arial, sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 nav {
@@ -42,15 +45,17 @@ main {
     padding: 0 20px;
 }
 
+
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
     padding: 20px;
 }
+    
 
-p, h1, a, .title, .date {
+p, h1, h2, h3, a, .title, .date {
     color: white;
     text-align: center;
 }
@@ -67,4 +72,23 @@ p, h1, a, .title, .date {
     main {
         padding: 0 10px;
     }
+}
+
+.small-icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
 }
