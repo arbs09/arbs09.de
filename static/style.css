@@ -60,19 +60,6 @@ p, h1, h2, h3, a, .title, .date {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    nav {
-        justify-content: space-around;
-    }
-
-    nav a {
-        padding: 10px;
-    }
-
-    main {
-        padding: 0 10px;
-    }
-}
 
 .small-icon {
     width: 20px;
