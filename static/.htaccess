@@ -1,8 +1,4 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.arbs09.de$ [NC]
-RewriteRule ^(.*)$ http://arbs09.de/$1 [R=301,L]
-RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI}
 DirectoryIndex index.html
 Options All -Indexes
 RedirectPermanent /en/social-media /contact
