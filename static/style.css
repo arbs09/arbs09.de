@@ -55,9 +55,14 @@ footer {
 }
     
 
-p, h1, h2, h3, a, .title, .date {
+h1, h2, h3, .title, .date, .footer-text {
     color: white;
     text-align: center;
+}
+
+p {
+    color: white;
+    text-align: left;
 }
 
 .small-icon {
