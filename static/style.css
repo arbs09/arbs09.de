@@ -14,7 +14,7 @@ body {
 nav {
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 nav ul {
@@ -52,11 +52,12 @@ main {
 
 
 footer {
+    margin-top: 20px;
     position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 0px 0px;
 }
     
 
