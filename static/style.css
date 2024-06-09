@@ -65,10 +65,16 @@ h1, h2, h3, .title, .date, .footer-text {
     text-align: center;
 }
 
+
 p {
     color: white;
     text-align: center;
 }
+
+.footer-text {
+    font-size: 14px;
+}
+
 
 .small-icon {
     width: 20px;
@@ -78,13 +84,13 @@ p {
 
 ul {
     list-style-type: none;
-    padding: 0;
-    text-align: center;
+    padding: 0 100px;
+    text-align: left;
 }
 
 li {
     color: white;
-    text-align: center;
+    text-align: left;
     display: inline-block;
     margin: 0 10px;
 }
