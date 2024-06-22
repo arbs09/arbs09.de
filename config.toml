@@ -10,7 +10,6 @@ default_language = "en"
 highlight_code = true
 render_emoji = true
 
-
 [extra]
 author = "@arbs09"
 
