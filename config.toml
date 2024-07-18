@@ -2,7 +2,7 @@ base_url = "https://arbs09.de"
 title = "@arbs09"
 compile_sass = false
 build_search_index = true
-feed_filename = "rss.xml"
+minify_html = true
 default_language = "en"
 
 [markdown]
