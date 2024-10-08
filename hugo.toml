@@ -82,6 +82,12 @@ defaultContentLanguage = "en"
   url = "https://gallery.arbs09.de"
   weight = 40
 
+[[menu.main]]
+  identifier = "devblog"
+  name = "my dev blog"
+  url = "https://arbs09.dev"
+  weight = 50
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
