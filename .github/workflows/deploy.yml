@@ -75,7 +75,7 @@ jobs:
 
       - name: Deploy to server via SSH
         run: |
-          sshpass -p $DEPLOY_PASSWORD rsync -avx -e 'ssh -p 69' --delete public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:./
+          sshpass -p $DEPLOY_PASSWORD rsync -avx --delete public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:./
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
