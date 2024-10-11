@@ -26,7 +26,7 @@ jobs:
         run: sudo snap install dart-sass
 
       - name: Build the website
-        run: hugo
+        run: sudo hugo
 
       - name: Add the server to known hosts
         run: ssh-keyscan -H $DEPLOY_SERVER >> ~/.ssh/known_hosts
