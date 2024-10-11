@@ -25,8 +25,16 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
 
-      - name: Build the website
-        run: sudo hugo
+      - name: Get Theme
+        run: git submodule update --init --recursive
+
+      - name: Update theme to Latest commit
+        run: git submodule update --remote --merge
+        
+      - name: Build Blog
+        env:
+          TZ: 'Europe/Berlin'
+        run: hugo --minify
 
       - name: Add the server to known hosts
         run: ssh-keyscan -H $DEPLOY_SERVER >> ~/.ssh/known_hosts
