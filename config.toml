@@ -2,7 +2,6 @@ baseURL = 'https://arbs09.de/'
 title = 'arbs09.de'
 theme = 'PaperMod'
 enableRobotsTXT = true
-defaultContentLanguage = "en"
 
 [languages]
   [languages.en]
