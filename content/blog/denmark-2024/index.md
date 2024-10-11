@@ -5,7 +5,7 @@ lastmod = 2024-10-08
 author = "arbs09"
 description = ""
 tags = ["arbs09", "photography", "Denmark"]
-draft = true
+draft = false
 +++
 Here is a photo dump of my trip to Denmark. It took a lot of pictures here you can see some of my favorite photos I took.
 
@@ -53,14 +53,14 @@ Here is a picture of the Turning Torso.
 
 ## 05.10.2024
 
-![](images/05.10.2024/Schloss_Frederiksborg_with_water_horzontal.jpg)
+![a lake before a castle](images/05.10.2024/Schloss_Frederiksborg_with_water_horzontal.jpg)
 
-![](images/05.10.2024/DSC00958.jpg)
+![water feature](images/05.10.2024/DSC00958.jpg)
 
 ![a photo of Fredriksborg Castle from the park](images/05.10.2024/DSC00975.jpg)
 Here you can see the Fredriksborg Castle from the park.
 
-![](images/05.10.2024/DSC00979.jpg)
+![a castle](images/05.10.2024/DSC00979.jpg)
 
 ![a Petroleum lamp in the dark](images/05.10.2024/PetroleumLampdarkstonewall%2001.jpg)
 ![a Petroleum lamp in the dark on a stone wall](images/05.10.2024/PetroleumLampdarkstonewall%2002.jpg)
@@ -72,4 +72,8 @@ I realy like these two photos that i took of some Petroleum lamp at a stone wall
 
 ![](images/07.10.2024/DSC00006.jpg)
 
-![](images/07.10.2024/DSC00014.jpg)
+![a lighthouse](images/07.10.2024/DSC00014.jpg)
+
+## 11.10.2024
+
+![the sea at the beach](images/11.10.2024/DSC00012.JPG)
