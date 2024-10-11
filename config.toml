@@ -3,12 +3,6 @@ languageCode = 'en'
 title = 'arbs09.de'
 theme = 'PaperMod'
 enableRobotsTXT = true
-defaultContentLanguage = "en"
-
-[languages]
-  [languages.en]
-    languageName = "en"
-    weight = 1
 
 [minify]
   disableXML = true
