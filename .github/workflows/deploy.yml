@@ -20,11 +20,7 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Install Hugo
-        run: |
-          HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep '"tag_name"' | sed -E 's/.*"v([^"]+)".*/\1/')
-          wget https://github.com/gohugoio/hugo/releases/download/v$HUGO_VERSION/hugo_extended_$HUGO_VERSION_Linux-64bit.deb
-          sudo dpkg -i hugo_extended_$HUGO_VERSION_Linux-64bit.deb
-        shell: bash
+        run: apt install hugo
 
       - name: Install Dart Sass
         run: sudo snap install dart-sass
