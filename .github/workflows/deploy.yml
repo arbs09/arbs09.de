@@ -20,7 +20,7 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Install Hugo
-        run: apt install hugo
+        run: sudo apt install hugo
 
       - name: Install Dart Sass
         run: sudo snap install dart-sass
