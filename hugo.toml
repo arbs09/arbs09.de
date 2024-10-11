@@ -5,6 +5,10 @@ theme = 'PaperMod'
 enableRobotsTXT = true
 defaultContentLanguage = "en"
 
+[module]
+  [[module.imports]]
+    path = 'github.com/adityatelange/hugo-PaperMod'
+
 [languages]
   [languages.en]
     languageName = "en"
