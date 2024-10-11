@@ -1,0 +1,39 @@
+name: Deploy
+run-name: Hugo blog deployment
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: deploy
+    steps:
+      - name: Checkout the current branch
+        uses: actions/checkout@v3
+
+      - name: Install Hugo
+        run: sudo apt-get install hugo -y
+
+      - name: Build the website
+        run: hugo
+
+      - name: Replace the server address in known hosts
+        run: >-
+          sed "s/changeme/$DEPLOY_SERVER/g" -i known_hosts
+        env:
+          DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
+
+      - name: Scan the host key
+        run: mkdir -p ~/.ssh/ && cp known_hosts ~/.ssh/known_hosts
+
+      - name: Install sshpass for password authentication
+        run: sudo apt-get install sshpass -y
+
+      - name: Deploy the website
+        run: >-
+          sshpass -p $DEPLOY_PASSWORD rsync -avx -e 'ssh -p 69' --delete --exclude '.ssh' public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:./
+        env:
+          DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
+          DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
+          DEPLOY_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
