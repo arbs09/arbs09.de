@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout the current branch
         uses: actions/checkout@v3
+        with:
+          submodules: true
 
       - name: Initialize the ssh-agent
         uses: webfactory/ssh-agent@v0.4.1
@@ -18,25 +20,25 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Install Hugo
-        run: sudo apt install hugo
-        
+        run: |
+          HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep '"tag_name"' | sed -E 's/.*"v([^"]+)".*/\1/')
+          wget https://github.com/gohugoio/hugo/releases/download/v$HUGO_VERSION/hugo_extended_$HUGO_VERSION_Linux-64bit.deb
+          sudo dpkg -i hugo_extended_$HUGO_VERSION_Linux-64bit.deb
+        shell: bash
+
       - name: Install Dart Sass
         run: sudo snap install dart-sass
 
       - name: Build the website
         run: hugo
 
-      - name: Replace the server address in knonw hosts
-        run: >-
-          sed "s/changeme/$DEPLOY_SERVER/g" -i known_hosts
+      - name: Add the server to known hosts
+        run: ssh-keyscan -H $DEPLOY_SERVER >> ~/.ssh/known_hosts
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
 
-      - name: Scan the host key
-        run: mkdir -p ~/.ssh/ && cp known_hosts ~/.ssh/known_hosts
-
       - name: Deploy the website
-        run: >-
+        run: |
           rsync -avx -e 'ssh' --delete --exclude '.ssh' public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:./
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
