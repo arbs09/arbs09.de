@@ -5,7 +5,7 @@ lastmod = 2024-10-12
 author = "arbs09"
 description = "My About me page"
 tags = ["arbs09", "photography", "about"]
-draft = flase
+draft = false
 +++
 
 Hi,
