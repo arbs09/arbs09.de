@@ -5,6 +5,12 @@ draft = false
 author = "arbs09"
 description = "This blog article was imported from an old version of this site"
 tags = ["arbs09", "photography", "from old blog"]
+[cover]
+image = "baum_auf_berg_0.png"
+alt = "Baum auf Berg"
+caption = ""
+relative = true
+hidden = true
 +++
 
 ## Bilder
