@@ -6,6 +6,12 @@ author = "arbs09"
 description = ""
 tags = ["arbs09", "photography", "Denmark"]
 draft = false
+[cover]
+image = "images/29.09.2024/DSC00004.jpg"
+alt = ""
+caption = ""
+relative = true
+hidden = true
 +++
 Here is a photo dump of my trip to Denmark. It took a lot of pictures here you can see some of my favorite photos I took.
 
