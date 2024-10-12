@@ -56,6 +56,11 @@ enableRobotsTXT = true
     name = "x"
     url = "https://x.com/Arbs09_"
 
+[[menu.main]]
+  identifier = "about"
+  name = "About me"
+  url = "/about/"
+  weight = 10
 
 [[menu.main]]
   identifier = "search"
