@@ -2,7 +2,7 @@
 title = 'Denmark 2023'
 date = 2023-10-17
 author = "arbs09"
-description = ""
+description = "This blog article was imported from an old version of this site"
 tags = ["arbs09", "photography", "Denmark", "from old blog"]
 draft = false
 [cover]
