@@ -28,6 +28,9 @@ enableRobotsTXT = true
     TocOpen = false
     ShowCodeCopyButtons = true
 
+    [params.social]
+      twitter = 'Arbs09_'
+
     [params.homeInfoParams]
     Title = "arbs09"
     Content = "Hey, I am @arbs09 and you are on my photography page / site."
