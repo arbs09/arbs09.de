@@ -38,8 +38,8 @@ Here is a photo dump of my trip to Denmark. It took a lot of pictures here you c
 
 ![](images/01.10.2024/DSC00009.jpg)
 
-![some boats in a canal in Koppenhagen](images/01.10.2024/DSC00017.jpg)
-Here you can see a photo of some boats in a canal in Koppenhagen.
+![some boats in a canal in Kopenhagen](images/01.10.2024/DSC00017.jpg)
+Here you can see a photo of some boats in a canal in Kopenhagen.
 
 ## 02.10.2024
 
@@ -53,7 +53,7 @@ Here you can see a photo of some boats in a canal in Koppenhagen.
 
 ## Malmö, Sweden (03.10.2024)
 
-On this Day I was in Malmö, Sweden.
+On this day I was in Malmö, Sweden.
 
 Here is a picture of the Turning Torso.
 ![the Turning Torso in Malmö](images/03.10.2024/Turning%20Torso.jpg)
