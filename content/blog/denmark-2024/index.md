@@ -71,7 +71,7 @@ Here you can see the Fredriksborg Castle from the park.
 
 ![a Petroleum lamp in the dark](images/05.10.2024/PetroleumLampdarkstonewall%2001.jpg)
 ![a Petroleum lamp in the dark on a stone wall](images/05.10.2024/PetroleumLampdarkstonewall%2002.jpg)
-I realy like these two photos that i took of some Petroleum lamp at a stone wall.
+I really like these two photos that i took of some Petroleum lamp at a stone wall.
 
 ## 07.10.2024
 
