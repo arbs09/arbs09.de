@@ -12,4 +12,4 @@ Hi,
 
 I am @arbs09 and this is my photography site. If you want to view my gallery you can visit [gallery.arbs09.de](https://gallery.arbs09.de).
 
-If you want to each me, just email me at [info@arbs09.de](mailto:info@arbs09.de).
+If you want to reach me, you can email me at [info@arbs09.de](mailto:info@arbs09.de).
