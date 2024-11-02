@@ -1,9 +1,10 @@
 +++
 title = 'Night Sky 31.10.2024'
 date = 2024-10-31
-lastmod = 2024-10-31
+lastmod = 2024-11-02
 author = "arbs09"
-description = ""
+description = "On the 31. of October I shot some amazing night sky pictures.
+Take a look!"
 tags = ["arbs09", "photography", "night-sky"]
 draft = false
 ShowWordCount = false
