@@ -8,7 +8,7 @@ tags = ["arbs09", "photography", "Denmark"]
 draft = false
 ShowWordCount = false
 [cover]
-image = "images/29.09.2024/DSC00004.jpg"
+image = "images/01.10.2024/DSC00017.jpg"
 alt = ""
 caption = ""
 relative = true
