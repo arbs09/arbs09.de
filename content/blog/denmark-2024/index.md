@@ -4,7 +4,7 @@ date = 2024-10-08
 lastmod = 2024-10-08
 author = "arbs09"
 description = ""
-tags = ["arbs09", "photography", "Denmark"]
+tags = ["arbs09", "photography", "Denmark", "Sweden"]
 draft = false
 ShowWordCount = false
 [cover]
