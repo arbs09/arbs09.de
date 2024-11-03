@@ -17,8 +17,8 @@ hidden = false
 
 Today I was in Leipzig, Germany and I took some photoes, take a look!
 
-![](images/DSC00013.jpg)
-
 ![](images/DSC00016.jpg)
 
 ![](images/DSC00022.jpg)
+
+![](images/DSC00013.jpg)
