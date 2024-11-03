@@ -11,7 +11,7 @@ image = "images/dsc00064.jpg"
 alt = "the North Sea at Cliffs"
 caption = ""
 relative = true
-hidden = true
+hidden = false
 +++
 
 ![the North Sea at Cliffs](images/dsc00064.jpg)

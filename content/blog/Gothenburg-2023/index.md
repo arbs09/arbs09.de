@@ -11,7 +11,7 @@ image = "images/dsc00047.jpg"
 alt = "multi-storey houses next to each other in Gothenburg"
 caption = ""
 relative = true
-hidden = true
+hidden = false
 +++
 
 ![multi-storey houses next to each other in Gothenburg](images/dsc00047.jpg)

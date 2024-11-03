@@ -8,11 +8,11 @@ tags = ["arbs09", "photography", "night-sky"]
 draft = false
 ShowWordCount = false
 [cover]
-image = "images/DSC00003.jpg"
+image = "images/DSC00002.jpg"
 alt = ""
 caption = ""
 relative = true
-hidden = false
+hidden = true
 +++
 
 On the 31. of October I shot some amazing night sky pictures.

@@ -12,7 +12,7 @@ image = "images/29.09.2024/DSC00004.jpg"
 alt = ""
 caption = ""
 relative = true
-hidden = true
+hidden = false
 +++
 Here is a photo dump of my trip to Denmark. It took a lot of pictures here you can see some of my favorite photos I took.
 
