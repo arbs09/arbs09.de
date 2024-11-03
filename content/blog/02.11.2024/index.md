@@ -12,7 +12,7 @@ image = "images/DSC00013.jpg"
 alt = ""
 caption = ""
 relative = true
-hidden = true
+hidden = false
 +++
 
 Today I was in Leipzig, Germany and I took some photoes, take a look!

@@ -12,7 +12,7 @@ image = "images/DSC00003.jpg"
 alt = ""
 caption = ""
 relative = true
-hidden = true
+hidden = false
 +++
 
 On the 31. of October I shot some amazing night sky pictures.
