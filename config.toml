@@ -1,5 +1,5 @@
 baseURL = 'https://arbs09.de/'
-title = 'arbs09.de photography blog'
+title = 'arbs09.de'
 theme = 'PaperMod'
 enableRobotsTXT = true
 
