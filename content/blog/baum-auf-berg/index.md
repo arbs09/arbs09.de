@@ -4,6 +4,7 @@ date = 2021-12-12
 lastmod = 2024-10-24
 draft = false
 author = "arbs09"
+ShowWordCount = false
 description = "This blog article was imported from an old version of this site"
 tags = ["photography", "editing"]
 [cover]
