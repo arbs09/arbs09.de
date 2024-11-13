@@ -42,12 +42,7 @@ jobs:
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
-  
-  purge-cache:
-    runs-on: ubuntu-latest
-    needs: build_and_publish
-    environment: deploy
-    steps:
+          
       - name: Purge cache
         uses: jakejarvis/cloudflare-purge-action@master
         env:
