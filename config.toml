@@ -1,5 +1,5 @@
 baseURL = 'https://arbs09.de/'
-title = 'arbs09.de'
+title = 'arbs09.de - photography blog'
 theme = 'PaperMod'
 enableRobotsTXT = true
 
@@ -32,12 +32,15 @@ enableRobotsTXT = true
     TocOpen = false
     ShowCodeCopyButtons = true
 
+    [params.label]
+      text = "arbs09.de"
+
     [params.social]
       twitter = 'Arbs09_'
 
     [params.homeInfoParams]
-    Title = "arbs09"
-    Content = "Hey, I am @arbs09, I post my photography stuff here. If you want you can visit my gallery with over 100 photos I took."
+    Title = "@arbs09.de"
+    Content = "Hey, I am arbs09, I post my photography stuff here. If you want you can visit my gallery with over 100 photos I took."
 
     [[params.socialIcons]]
     name = "email"
@@ -95,4 +98,3 @@ enableRobotsTXT = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
