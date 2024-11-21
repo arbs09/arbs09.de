@@ -70,43 +70,43 @@ enableRobotsTXT = true
   identifier = "photography"
   name = "photography"
   url = "/photography/"
-  weight = 0
+  weight = 10
 
 [[menu.main]]
   identifier = "tech"
   name = "tech"
   url = "/tech/"
-  weight = 10
+  weight = 20
 
 [[menu.main]]
   identifier = "about"
   name = "about me"
   url = "/about/"
-  weight = 20
+  weight = 30
 
 [[menu.main]]
   identifier = "search"
   name = "search"
   url = "/search/"
-  weight = 30
+  weight = 40
 
 [[menu.main]]
   identifier = "archive"
   name = "archive"
   url = "/archive/"
-  weight = 40
+  weight = 50
 
 [[menu.main]]
   identifier = "gallery"
   name = "my gallery"
   url = "https://gallery.arbs09.de"
-  weight = 50
+  weight = 60
 
 [[menu.main]]
   identifier = "devpage"
   name = "my dev page"
   url = "https://arbs09.dev"
-  weight = 60
+  weight = 70
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
