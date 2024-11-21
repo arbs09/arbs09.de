@@ -1,5 +1,5 @@
 baseURL = 'https://arbs09.de/'
-title = 'arbs09.de - photography blog'
+title = 'arbs09.de'
 theme = 'PaperMod'
 enableRobotsTXT = true
 
@@ -16,8 +16,8 @@ enableRobotsTXT = true
     env = "production"
     defaultTheme = "auto"
     images = ["https://arbs09.de/blog/denmark-2023/images/dsc00040.jpg"]
-    description = "the photography blog of arbs09."
-    keywords = ["arbs09", "photography", "blog"]
+    description = "the blog of arbs09."
+    keywords = ["arbs09", "photography", "blog", "tech", "developer"]
     author = "arbs09"
     DateFormat = "January 2, 2006"
     comments = false
