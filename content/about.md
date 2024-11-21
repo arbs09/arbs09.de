@@ -4,7 +4,7 @@ date = 2024-10-12
 lastmod = 2024-11-02
 author = "arbs09"
 description = "My About me page"
-tags = ["arbs09", "photography", "about", "blog"]
+keywords = ["arbs09", "photography", "about", "blog"]
 draft = false
 +++
 
