@@ -18,6 +18,7 @@ enableRobotsTXT = true
     images = ["https://arbs09.de/blog/denmark-2023/images/dsc00040.jpg"]
     description = "the blog of arbs09."
     keywords = ["arbs09", "photography", "blog", "tech", "developer"]
+    mainSections = [ "photography", "tech" ]
     author = "arbs09"
     DateFormat = "January 2, 2006"
     comments = false

@@ -3,7 +3,6 @@ title = 'How to install Portainer CE on Ubuntu using Docker'
 date = 2024-10-09
 lastmod = 2024-10-09
 draft = false
-series = ["ubuntu server"]
 author = "arbs09"
 description = "You want to optimize your docker Workflow? With Portainer you can simplify the management of your Docker containers."
 keywords = [

@@ -3,7 +3,6 @@ title = 'Installing pihole on dietpi'
 date = 2024-09-29
 lastmod = 2024-09-30
 draft = false
-series = ["ultimate pihole"]
 author = "arbs09"
 description = "How to set up  Pihole - a Network-wide Ad Blocker on dietpi. What even is PiHole? Why do I even need a PiHole?"
 keywords = [

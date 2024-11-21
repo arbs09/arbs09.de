@@ -3,7 +3,6 @@ title = 'ADB Honeypot'
 date = 2024-10-12
 lastmod = 2024-10-12
 draft = false
-series = ["Honeypot"]
 author = "arbs09"
 description = "I ran a ADB Honeypot for 24h. Here is what happend"
 keywords = [
