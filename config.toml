@@ -67,34 +67,46 @@ enableRobotsTXT = true
     url = "https://x.com/Arbs09_"
 
 [[menu.main]]
+  identifier = "photography"
+  name = "photography"
+  url = "/photography/"
+  weight = 0
+
+[[menu.main]]
+  identifier = "tech"
+  name = "tech"
+  url = "/tech/"
+  weight = 10
+
+[[menu.main]]
   identifier = "about"
   name = "about me"
   url = "/about/"
-  weight = 10
+  weight = 20
 
 [[menu.main]]
   identifier = "search"
   name = "search"
   url = "/search/"
-  weight = 20
+  weight = 30
 
 [[menu.main]]
   identifier = "archive"
   name = "archive"
   url = "/archive/"
-  weight = 30
+  weight = 40
 
 [[menu.main]]
   identifier = "gallery"
   name = "my gallery"
   url = "https://gallery.arbs09.de"
-  weight = 40
+  weight = 50
 
 [[menu.main]]
-  identifier = "devblog"
-  name = "my dev blog"
+  identifier = "devpage"
+  name = "my dev page"
   url = "https://arbs09.dev"
-  weight = 50
+  weight = 60
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
