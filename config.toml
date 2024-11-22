@@ -92,22 +92,16 @@ enableRobotsTXT = true
   weight = 40
 
 [[menu.main]]
-  identifier = "archive"
-  name = "archive"
-  url = "/archive/"
-  weight = 50
-
-[[menu.main]]
   identifier = "gallery"
   name = "my gallery"
   url = "https://gallery.arbs09.de"
-  weight = 60
+  weight = 50
 
 [[menu.main]]
   identifier = "devpage"
   name = "my dev page"
   url = "https://arbs09.dev"
-  weight = 70
+  weight = 60
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
