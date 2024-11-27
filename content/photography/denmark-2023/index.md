@@ -5,7 +5,6 @@ author = "arbs09"
 description = "This blog article was imported from an old version of this site"
 tags = ["photography", "Denmark"]
 draft = false
-ShowWordCount = false
 [cover]
 image = "images/dsc00064.jpg"
 alt = "the North Sea at Cliffs"

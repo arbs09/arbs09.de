@@ -7,7 +7,6 @@ description = "On the 31. of October I shot some amazing night sky pictures. Tak
 summary = "On the 31. of October I shot some amazing night sky pictures. Take a look!"
 tags = ["photography", "night-sky"]
 draft = false
-ShowWordCount = false
 [cover]
 image = "images/DSC00002.jpg"
 alt = ""

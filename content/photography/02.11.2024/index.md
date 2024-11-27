@@ -7,7 +7,6 @@ description = "Today I was in Leipzig, Germany and I took some photoes, take a l
 summary = "Today I was in Leipzig, Germany and I took some photoes, take a look!"
 tags = ["photography", "leipzig"]
 draft = false
-ShowWordCount = false
 [cover]
 image = "images/DSC00013.jpg"
 alt = ""

@@ -6,7 +6,6 @@ author = "arbs09"
 description = ""
 tags = ["photography", "Denmark", "Sweden"]
 draft = false
-ShowWordCount = false
 [cover]
 image = "images/01.10.2024/DSC00017.jpg"
 alt = ""

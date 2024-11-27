@@ -5,7 +5,6 @@ author = "arbs09"
 description = "This blog article was imported from an old version of this site"
 tags = ["photography", "Sweden", "Gothenburg"]
 draft = false
-ShowWordCount = false
 [cover]
 image = "images/dsc00047.jpg"
 alt = "multi-storey houses next to each other in Gothenburg"
