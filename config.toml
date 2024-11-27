@@ -41,7 +41,7 @@ enableRobotsTXT = true
 
     [params.homeInfoParams]
     Title = "@arbs09.de"
-    Content = "Hey, I am arbs09, I post my photography stuff here. If you want you can visit my gallery with over 100 photos I took."
+    Content = "Hey, I am arbs09 and welcome to my blog."
 
     [[params.socialIcons]]
     name = "email"
