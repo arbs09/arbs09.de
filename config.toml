@@ -10,14 +10,21 @@ enableRobotsTXT = true
     contentDir = "content/en"
   
   [languages.de]
-    languageName = "Deutsch"
+    languageName = ":de:"
     weight = 2
     contentDir = "content/de"
 
     [[languages.de.menu.main]]
-    name = "Photographie"
+    name = "Fotographie"
     url = "photography"
     weight = 10
+
+    [languages.de.params]
+    keywords = ["arbs09", "photography", "blog", "tech", "Fotographie"]
+
+    [languages.de.params.homeInfoParams]
+    Title = "@arbs09"
+    Content = "Wilkommen auf meiner Webseite."
 
 [minify]
   disableXML = true
