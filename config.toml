@@ -15,7 +15,7 @@ enableRobotsTXT = true
     contentDir = "content/de"
 
     [[languages.de.menu.main]]
-    name = "Photography"
+    name = "Photographie"
     url = "photography"
     weight = 10
 
