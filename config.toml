@@ -21,6 +21,7 @@ enableRobotsTXT = true
 
     [languages.de.params]
     keywords = ["arbs09", "photography", "blog", "tech", "Fotographie"]
+    description = "der Blog von arbs09."
 
     [languages.de.params.homeInfoParams]
     Title = "@arbs09"
