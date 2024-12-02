@@ -22,7 +22,7 @@ enableRobotsTXT = true
     [languages.de.params]
     keywords = ["arbs09", "photography", "blog", "tech", "Fotographie"]
     description = "Der Blog von arbs09."
-    mainSections = ["photography", "schule"]
+    mainSections = ["photography", "texte", "plakate"]
 
     [languages.de.params.homeInfoParams]
     Title = "@arbs09"
