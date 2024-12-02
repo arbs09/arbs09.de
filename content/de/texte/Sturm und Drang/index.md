@@ -62,7 +62,7 @@ draft = false
 - Kulturelle Wirkung: Beitrag zur Bildung einer nationalen literarischen Identität in Deutschland
 - Philosophischer Einfluss: Förderung des Individualismus und der subjektiven Wahrnehmung in der Philosophie und Kunst
 
-Quellen:
+## Quellen:
 
 - [studyflix](https://studyflix.de/deutsch/sturm-und-drang-epoche-3532)
 - [wikipedia.org](https://de.wikipedia.org/wiki/Sturm_und_Drang)
