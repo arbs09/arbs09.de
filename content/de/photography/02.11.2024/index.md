@@ -1,5 +1,5 @@
 +++
-title = 'ein Tag in Leipzig'
+title = 'Ein Tag in Leipzig'
 date = 2024-11-02
 lastmod = 2024-11-02
 author = "arbs09"
