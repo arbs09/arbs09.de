@@ -14,8 +14,10 @@ caption = ""
 relative = true
 hidden = false
 +++
-![](images/DSC00016.jpg)
 
-![](images/DSC00022.jpg)
+![Street in Leipzig](/photography/02.11.2024/images/street-leipzig.jpg)
+[Street in Leipzig](/photography/02.11.2024/images/street-leipzig.jpg) © 2024 by [arbs09](https://arbs09.de/) is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-![](images/DSC00013.jpg)
+![](/photography/02.11.2024/images/DSC00022.jpg)
+
+![](/photography/02.11.2024/images/DSC00013.jpg)
