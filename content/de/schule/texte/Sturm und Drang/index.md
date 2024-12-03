@@ -5,6 +5,7 @@ lastmod = 2024-11-29
 author = "arbs09"
 description = ""
 summary = ""
+keywords = ["Sturm und Drang Zusammenfassung", "Stichpunkte", "literaturische Epoche"]
 tags = ["Sturm und Drang", "literaturische Epoche"]
 draft = false
 +++
