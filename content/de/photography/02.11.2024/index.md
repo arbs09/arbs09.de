@@ -8,7 +8,7 @@ summary = ""
 tags = ["photography", "leipzig"]
 draft = false
 [cover]
-image = "images/DSC00013.jpg"
+image = "/photography/02.11.2024/images/DSC00013.jpg"
 alt = ""
 caption = ""
 relative = true
