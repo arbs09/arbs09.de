@@ -1,7 +1,7 @@
 +++
 title = 'Ein Tag in Leipzig'
 date = 2024-11-02
-lastmod = 2024-11-02
+lastmod = 2024-12-03
 author = "arbs09"
 description = ""
 summary = ""
