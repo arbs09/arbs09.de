@@ -44,7 +44,8 @@ Here you can see a photo of some boats in a canal in Kopenhagen.
 
 ![the sea with a stony beach](images/02.10.2024/DSC00014.jpg)
 
-![a sunset on the beach](images/02.10.2024/DSC00023.jpg)
+![sunset](images/02.10.2024/sunset.jpg)
+[sunset](images/02.10.2024/sunset.jpg) © 2024 by [arbs09](https://arbs09.de/) is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ![the reflection of a sunset on the beach](images/02.10.2024/DSC00031.jpg)
 
