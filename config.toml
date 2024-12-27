@@ -22,6 +22,7 @@ enableRobotsTXT = true
     [languages.de.params]
     keywords = ["arbs09", "photography", "blog", "tech", "Fotographie"]
     description = "Der Blog von arbs09."
+    mainSections = ["photography"]
 
     [languages.de.params.homeInfoParams]
     Title = "@arbs09"
@@ -37,7 +38,7 @@ enableRobotsTXT = true
     images = ["https://arbs09.de/photography/denmark-2023/images/dsc00040.jpg"]
     description = "the blog of arbs09."
     keywords = ["arbs09", "photography", "blog", "tech", "developer"]
-    mainSections = [ "photography", "tech" ]
+    mainSections = ["photography", "tech"]
     author = "arbs09"
     DateFormat = "January 2, 2006"
     comments = false

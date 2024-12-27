@@ -20,7 +20,7 @@ tags = [
 
 ## Requirements
 
-You need a Linux Sever / Computer with Docker installed.
+You need a Linux Server / Computer with Docker installed.
 
 ## Installation of Portainer on Ubuntu using Docker
 
